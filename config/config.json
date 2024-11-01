@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "usr_DesaWeb",
+    "password": "GuasTa360#",
+    "database": "db_banco",
+    "host": "svr-sql-ctezo.southcentralus.cloudapp.azure.com",
+    "dialect": "mssql",
+    "dialectOptions": {
+      "options": {
+        "encrypt": true,
+        "trustServerCertificate": true
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
